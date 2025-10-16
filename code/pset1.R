@@ -14,7 +14,7 @@ lapply(packages, require, character.only = TRUE)
 root_path <- paste0("/Users/", Sys.getenv("USER"), "/Documents/GitHub/econ220A/")
 root_code <- paste0(root_path, "code/")
 root_data <- paste0(root_path, "data/")
-root_exhibits <- paste0(root_path, "exhibits/")
+root_exhibits <- paste0(root_path, "exhibits/pset1/")
 
 # Load data
 yoghurt_df <- readr::read_csv(paste0(root_data, "data_yoghurt.csv"))
